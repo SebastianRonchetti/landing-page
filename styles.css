@@ -63,9 +63,28 @@ li {
 h1 {
     font-size: 48px;
     font-weight: 900px;
+    margin: 0;
 }
 
-.hero p, .header ul li {
+.hero-content p, .header ul li {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-content button {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-image {
+    width: 530px;
+    height: 250px;
+    background-color: red;
+    margin: 10px 0 0;
 }
