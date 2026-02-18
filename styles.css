@@ -156,3 +156,75 @@ h1 {
     font-size: 18px;
     text-align: center;
 }
+
+/* QUOTE */
+
+.quote {
+    box-sizing: border-box;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 3% 16%;
+    margin: 90px 0px 70px;
+    display: flex;
+    flex-direction: column;
+
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote sub{
+    align-self: flex-end;
+    text-align:end;
+}
+
+/* CALL TO ACTION */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #F9FAF8;
+    height: 160px;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 64%;
+    height: 55%;
+    border-radius: 6px;
+}
+
+.c2a-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.c2a-main-text {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+}
+
+.c2a-text sub {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.c2a-button {
+    width: 20%;
+    height: 50%;
+    align-self: center;
+    border: 2px solid white;
+    background-color: inherit;
+    border-radius: 5px;
+    color: inherit;
+    font-size: 18px;
+    font-weight: 800;
+    padding: px;
+}
